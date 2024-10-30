@@ -8,6 +8,10 @@ public class MethodDemo {
         System.out.println(MySum(1, 2, 3));
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(FindMax(arr));
+        int[] arr2 = CopyOfRange(arr, 0, 3);
+        for (int i : arr2) {
+            System.out.print(i+" ");
+        }
     }
     public static double CircleArea(double radius){
         return radius*radius*3.14;
@@ -28,4 +32,11 @@ public class MethodDemo {
         return ans;
     }
 
+    public static int[] CopyOfRange(int[] arr, int from, int to) {
+        int[] ans = new int[to - from + 1];
+        for (int i = from, j = 0; i <= to; i++, j++) {
+            ans[j] = arr[i];
+        }
+        return ans;
+    }
 }
