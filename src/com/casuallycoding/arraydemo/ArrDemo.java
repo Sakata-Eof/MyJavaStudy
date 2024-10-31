@@ -10,6 +10,15 @@ public class ArrDemo {
             System.out.println(j);
         }
         int[] arr3 = new int[5];
+        arr3[2] = 0;
+        arr3[1] = 10;
+        for (int i : arr3) {
+            System.out.println(i);
+        }
+        for (int i = 0; i < arr3.length; i++) {
+            System.out.println(arr3[i]);
+        }
         System.out.println(arr3[2]);
+        
     }
 }
