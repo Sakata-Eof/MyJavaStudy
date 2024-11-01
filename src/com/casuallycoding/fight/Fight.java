@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Fight {
     public static void main(String[] args) {
-        Fighter gojo = new Fighter("五条悟", 1000, 500);
-        Fighter sukuna = new Fighter("宿傩", 50000, 10);
+        Fighter gojo = new Fighter("五条悟", 1000, 2500);
+        Fighter sukuna = new Fighter("宿傩", 50000, 50);
         Random rand = new Random();
         while (true) {
             if (rand.nextBoolean()) {
