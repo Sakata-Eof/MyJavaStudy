@@ -54,5 +54,4 @@ public class MoneyExchange {
         }
         return new String(chars);
     }
-
 }
