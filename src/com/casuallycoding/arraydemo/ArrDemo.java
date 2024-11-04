@@ -18,7 +18,7 @@ public class ArrDemo {
         for (int i = 0; i < arr3.length; i++) {
             System.out.println(arr3[i]);
         }
-        System.out.println(arr3[2]);
-        
+        System.out.println(arr3.length);
+
     }
 }
