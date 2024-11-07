@@ -15,8 +15,4 @@ public class PingPongCoach extends Coach implements SpeakEng {
         System.out.println("教打乒乓球");
     }
 
-    @Override
-    public void speak() {
-        System.out.println("说英语");
-    }
 }

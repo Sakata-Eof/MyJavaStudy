@@ -12,9 +12,5 @@ public class PingPongPlayer extends Athelete implements SpeakEng {
     public void learn() {
         System.out.println("学打乒乓球");
     }
-
-    @Override
-    public void speak() {
-        System.out.println("说英语");
-    }
+    
 }
