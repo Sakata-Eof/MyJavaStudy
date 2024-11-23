@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class ArraylistDemo {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();//默认容量为零
         System.out.println(list);
-        list.add("aaa");
+        list.add("aaa");//初次添加容量加为10，满容量再扩1.5倍，若扩容还不能满足，则容量为实际长度
         list.add("bbb");
         list.add("ccc");
         System.out.println(list.remove("ccc"));
